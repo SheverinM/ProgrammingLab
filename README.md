@@ -1,2 +1,2 @@
 # ProgrammingLab
-RRepository per gli esercizi del laboratorio di programmazione.
+Repository per gli esercizi del laboratorio di programmazione.
