@@ -20,5 +20,5 @@ def vocali_stringa (str):
 
 str_input = input("Inserisci una stringa e ti dico quante vocali contiene: ")
 
-print(f"ci sono {vocali_stringa(str_input)} vocali")
+print(f"ci sono {vocali_stringa(str_input)} vocali in \"{str_input}\"")
 
