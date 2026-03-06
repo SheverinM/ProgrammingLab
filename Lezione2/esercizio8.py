@@ -50,8 +50,12 @@ a = int(input("Inserisci II° lato:"))
 b = int(input("Inserisci I° lato:"))
 c = int(input("Inserisci III° lato:"))
 
-"""if verifica_lati_triangolo:
+if verifica_lati_triangolo(a,b,c):
 
     print(f"sono lati di un tringolo {tipo_triangolo(a,b,c)}")
-"""
+
+else:
+
+    print("i lati inseriti non possono formare un triangolo.")
+
     
