@@ -18,4 +18,7 @@ def vocali_stringa (str):
     return contatore
 
 
+str_input = input("Inserisci una stringa e ti dico quante vocali contiene: ")
+
+print(f"ci sono {vocali_stringa(str_input)} vocali")
 
