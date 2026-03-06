@@ -5,6 +5,10 @@ def conta_ripetizione_lettera(parola, lettera):
 
     contatore = 0
 
+    parola = parola.lower()
+
+    lettera = lettera.lower()
+
     for c in parola:
         if c == lettera:
             contatore += 1
