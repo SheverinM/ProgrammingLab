@@ -2,7 +2,7 @@
 #stampa il suo quadrato e il suo cubo
 
 numero = int(input("inserisci un numero intero e ti restituisco"
-                   "il suo quadrato e il suo cubo:"))
+                   " il suo quadrato e il suo cubo:"))
 
 quadrato = numero**2
 cubo = numero**3
