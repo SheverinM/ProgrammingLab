@@ -6,4 +6,4 @@ ore = 538 // 60
 
 minuti = 538 % 60
 
-print(f"{ore}h:{minuti}min.")
+print(f"\n{ore}h:{minuti}min.\n")
