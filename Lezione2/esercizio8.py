@@ -30,7 +30,6 @@ def verifica_lati_triangolo(a, b, c):
     
     return triangolo
 
-"""
 def tipo_triangolo(a, b, c):
 
     if a == b == c:
@@ -44,7 +43,7 @@ def tipo_triangolo(a, b, c):
     else:
 
         return "Scaleno"
-"""
+
 
 
 a = int(input("Inserisci II° lato:"))
