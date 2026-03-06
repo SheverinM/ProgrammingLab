@@ -46,8 +46,8 @@ def tipo_triangolo(a, b, c):
 
 
 
-a = int(input("Inserisci II° lato:"))
-b = int(input("Inserisci I° lato:"))
+a = int(input("Inserisci I° lato:"))
+b = int(input("Inserisci II° lato:"))
 c = int(input("Inserisci III° lato:"))
 
 if verifica_lati_triangolo(a,b,c):
