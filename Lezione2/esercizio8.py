@@ -14,7 +14,7 @@ Isoscele --> due lati uguali: a=b oppure a=c oppure b=c
 Scaleno --> tutti i lati diversi: a != b != c
 """
 
-"""def verifica_triangolo(a, b, c):
+def verifica_triangolo(a, b, c):
 
     triangolo = False
 
@@ -23,7 +23,7 @@ Scaleno --> tutti i lati diversi: a != b != c
         triangolo = True
     
     return triangolo
-"""
+
 """
 def tipo_triangolo(a, b, c):
 
@@ -41,9 +41,9 @@ def tipo_triangolo(a, b, c):
 """
 
 
-a = int(input(f"Inserisci {I}° lato:"))
-b = int(input(f"Inserisci {II}° lato:"))
-c = int(input(f"Inserisci {III}° lato:"))
+a = int(input("Inserisci II° lato:"))
+b = int(input("Inserisci I° lato:"))
+c = int(input("Inserisci III° lato:"))
 
 """if verifica_triangolo:
 
