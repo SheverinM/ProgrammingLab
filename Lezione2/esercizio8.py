@@ -14,7 +14,13 @@ Isoscele --> due lati uguali: a=b oppure a=c oppure b=c
 Scaleno --> tutti i lati diversi: a != b != c
 """
 
-def verifica_triangolo(a, b, c):
+def verifica_lati_triangolo(a, b, c):
+
+    """è la funzione che verifica che i numeri inseriti possono essere lati di
+    un triangolo.
+    a, b, c sono numeri interi inseriti dall'utente
+    
+    la verifica_lati_triangolo ritorna valore True se i lati possono fare un triangolo"""
 
     triangolo = False
 
@@ -45,7 +51,7 @@ a = int(input("Inserisci II° lato:"))
 b = int(input("Inserisci I° lato:"))
 c = int(input("Inserisci III° lato:"))
 
-"""if verifica_triangolo:
+"""if verifica_lati_triangolo:
 
     print(f"sono lati di un tringolo {tipo_triangolo(a,b,c)}")
 """
