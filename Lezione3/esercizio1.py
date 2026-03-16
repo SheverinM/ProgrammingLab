@@ -17,8 +17,12 @@
 def somma_elementi_lista(lista):
     somma = 0
     for i in lista:
-        somma += lista[i]
+        somma += i
 
     return somma
     
-    
+
+lista_numeri = [1,2,3,4,5,6,7,8,9,10]
+print(f"somma degli elementi della lista è {somma_elementi_lista(lista_numeri)}")
+
+
