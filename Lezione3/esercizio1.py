@@ -19,4 +19,5 @@ def somma_elementi_lista(lista):
     for i in lista:
         somma += lista[i]
 
-    return somma
+    
+    
