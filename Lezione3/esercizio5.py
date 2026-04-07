@@ -1,0 +1,2 @@
+"""Definire una funzione che prende in input una lista di numeri interi in [0,9] e ritorna una lista di stringhe, 
+corrispondenti ai numeri scritti in italiano. Ad esempio [1,0,7,9,8 --> ["uno","zero","sette","nove","otto"]]"""
