@@ -30,6 +30,7 @@ def Liste_elementi_in_comune(A, B):
     
     return presente, in_comune
 
+lista1 = ["Majid", 1, 90, 4.5, "Zagros"]
+lista2 = [10, "Majid", 30, [1,2,3], 90, 4.5]
 
-l
-    
+print(Liste_elementi_in_comune(lista1,lista2))
