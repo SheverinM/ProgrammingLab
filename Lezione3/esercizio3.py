@@ -12,6 +12,9 @@ def scambia_elementi_lista(A, i, j):
     A[i] = A[j]
     A[j] = temp
 
+"""La soluzione Pythonica per fare questo scambio senza utilizzare varibile
+temporale temp è:   A[i], A[j] = A[j], A[i]"""
+
 lista = ["Maria", "Majid", "Zagros", "Trilli"]
 
 scambia_elementi_lista(lista, 0, 3)
