@@ -8,12 +8,9 @@ def scambia_elementi_lista(A, i, j):
         
         """
 
-    elemento_i_esimo = A[i]
-    elemento_j_esimo = A[j]
- 
-    A[i] = elemento_j_esimo
-    A[j] = elemento_i_esimo
-
+    temp = A[i]
+    A[i] = A[j]
+    A[j] = temp
 
 lista = ["Maria", "Majid", "Zagros", "Trilli"]
 
