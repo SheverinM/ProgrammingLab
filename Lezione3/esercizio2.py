@@ -12,25 +12,23 @@
 
 def palindroma(parola):
 
-    """Prima di tutti trasformo la stinga ricevuta in una stringa dove tutti caratteri sono minuscoli:"""
-    
-    parola_lower = parola.lower()
-
     """Adesso voglio escludere caratteri speciali dalla stringa ricevuta in modo da ottenere una
     stinga fatta soltanto dai caratteri dell'alfabeto:"""
 
     caratteri_da_escludere = [" ","!", "?", ".", ";", ":", "-", "_", "(", ")","'"]
     parola_senza_caratteri_speciali = "" #Devi creare la stinga vuota
-    for i in parola_lower:
-        if i not in caratteri_da_escludere:
-            parola_senza_caratteri_speciali += i
+
+    #mi creao la strimnga senza caratteri speciali, cioè una stringa di soli caratteri alfabetici
+    for carattere in parola:
+        if carattere not in caratteri_da_escludere:
+            parola_senza_caratteri_speciali += carattere
                        
     
     """Adesso inverto la stinga che non ha caratteri speciali:"""
 
     parola_invertita = parola_senza_caratteri_speciali[::-1]        
   
-    """rotrno un valore vero se le due stringhe sono uguali e un valore falco se sono diverse:"""
+    """ritrno un valore vero se le due stringhe sono uguali e un valore falso se sono diverse:"""
     
     return parola_invertita == parola_senza_caratteri_speciali
 
