@@ -1,17 +1,11 @@
 """
-    somma degli elementi di una lista
+Calcola la somma degli elementi di una lista.
 
-    Args: 
-            
-            lista
-    
-    variables:
+Args:
+    lista (list): Una lista di numeri (int o float).
 
-            somma = contiene somma dei elementi della lista
-    
-    Return:
-            
-            int or float: somma 
+Returns:
+    int or float: La somma totale degli elementi.
 """
 
 def somma_elementi_lista(lista):
