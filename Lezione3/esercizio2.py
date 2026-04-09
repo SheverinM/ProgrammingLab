@@ -15,13 +15,15 @@ def palindroma(parola):
     """Adesso voglio escludere caratteri speciali dalla stringa ricevuta in modo da ottenere una
     stinga fatta soltanto dai caratteri dell'alfabeto:"""
 
-    caratteri_da_escludere = [" ","!", "?", ".", ";", ":", "-", "_", "(", ")","'"]
+    #caratteri_da_escludere = [" ","!", "?", ".", ";", ":", "-", "_", "(", ")","'"]
+
+    caratteri_da_escludere = " !?.;:-_,'"
     parola_senza_caratteri_speciali = "" #Devi creare la stinga vuota
 
     #mi creao la strimnga senza caratteri speciali, cioè una stringa di soli caratteri alfabetici
     for carattere in parola:
-        if carattere.lower() not in caratteri_da_escludere:
-            parola_senza_caratteri_speciali += carattere
+        if carattere not in caratteri_da_escludere:
+            parola_senza_caratteri_speciali += carattere.lower()
                        
     
     """Adesso inverto la stinga che non ha caratteri speciali:"""
