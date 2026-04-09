@@ -27,7 +27,9 @@ def palindroma(parola):
     
     """avrei potuto utilizzare il metodo .isalpha() che restituisce True 
     se il carattere è una lettera dell'alfabeto e False se è un numero, 
-    uno spazio o un simbolo. 
+    uno spazio o un simbolo. che ovviamente è molto meglio perchè si esclude
+    qualsiasi carattere che non è una lettera senza impazzire a inserire tutti
+    i caratteri da escludere.
     """                
     
     """Adesso inverto la stinga che non ha caratteri speciali:"""
