@@ -1,22 +1,17 @@
 """Scrivere una funzione che prended in input due liste e 
-ritorna True se le due liste hanno almeno un elemento in comune e numero di elementi in comune."""
+ritorna True se le due liste hanno almeno un elemento in comune."""
 
 def Liste_elementi_in_comune(A, B):
     
     """
-    
-        Args: 
-                A, B: liste 
-    
-        Variables:
+    Verifica la presenza di elementi comuni tra due liste.
 
-                in_comune = numero di elementi in comune
-                presente = un valore booleano --> se esistono elementi in comune = True altrimenti = False
-        
-        Returns: 
-        
-                True se almeno uun elento in comune, False altrimenti
-                int: in_comune
+    Args:
+        A (list): La prima lista di elementi.
+        B (list): La seconda lista di elementi.
+
+    Return:
+        bool: True se esiste almeno un elemento in comune, False altrimenti.
     """
 
     in_comune = 0
@@ -24,11 +19,8 @@ def Liste_elementi_in_comune(A, B):
     for i in A:
         for j in B:
             if i == j:
-                in_comune +=1
+                return True
 
-    presente = in_comune > 0 
-    
-    return presente, in_comune
 
 lista1 = ["Majid", 1, 90, 4.5, "Zagros"]
 lista2 = [10, "Majid", 30, [1,2,3], 90, 4.5]
