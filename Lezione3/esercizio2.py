@@ -24,7 +24,11 @@ def palindroma(parola):
     for carattere in parola:
         if carattere not in caratteri_da_escludere:
             parola_senza_caratteri_speciali += carattere.lower()
-                       
+    
+    """avrei potuto utilizzare il metodo .isalpha() che restituisce True 
+    se il carattere è una lettera dell'alfabeto e False se è un numero, 
+    uno spazio o un simbolo. 
+    """                
     
     """Adesso inverto la stinga che non ha caratteri speciali:"""
 
