@@ -20,7 +20,7 @@ def palindroma(parola):
 
     #mi creao la strimnga senza caratteri speciali, cioè una stringa di soli caratteri alfabetici
     for carattere in parola:
-        if carattere not in caratteri_da_escludere:
+        if carattere.lower() not in caratteri_da_escludere:
             parola_senza_caratteri_speciali += carattere
                        
     
