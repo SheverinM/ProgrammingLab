@@ -16,9 +16,9 @@ def corrispondeza_cifre_lettere(A):
     
     in_lettere = []
     
-    for i in A:
-        if i in cifre_lettere:
-            in_lettere.append(cifre_lettere[i])                      
+    for numero in A:
+        if numero in cifre_lettere:
+            in_lettere.append(cifre_lettere[numero])                      
                     
     return in_lettere
 
